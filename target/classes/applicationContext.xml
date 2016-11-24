@@ -6,10 +6,6 @@
         http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-	<bean id="human" class="alexsoft.warhammermaster.model.Caracter">
-		<property name="name" value="Mkyong" />
-                <property name="description" value="Alex" />
-	</bean>
-        <context:annotation-config/>
+	<context:annotation-config/>
 	<context:component-scan base-package="alexsoft.warhammermaster.component" />
 </beans>

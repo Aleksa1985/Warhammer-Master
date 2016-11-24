@@ -7,8 +7,7 @@ package alexsoft.warhammermaster;
 
 import alexsoft.warhammermaster.model.Caracter;
 
-import alexsoft.warhammermaster.component.service.TestClass2;
-import alexsoft.warhammermaster.component.service.TestService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -25,17 +24,11 @@ public class Test {
         
        ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
        Test p = ctx.getBean(Test.class);
-       p.start(args);
+      
     }
     
-     @Autowired
-    private TestService testService;
-    private void start(String[] args) {
-        System.out.println("my beans method: " + testService.returnSomething());
-    }
-    
-    public String callBeanFromService() {
-        return new TestClass2().callMeSomething();
 
-    }
+   
+    
+  
 }
