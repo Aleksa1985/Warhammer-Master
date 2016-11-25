@@ -12,6 +12,15 @@ public class Armor {
     private Integer defenceBonus;
     private Boolean masterwork;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    
     public String getName() {
         return name;
     }
@@ -35,6 +44,12 @@ public class Armor {
     public void setMasterwork(Boolean masterwork) {
         this.masterwork = masterwork;
     }
+
+    @Override
+    public String toString() {
+        return super.toString(); //To change body of generated methods, choose Tools | Templates.
+    }
+    
     
  
     

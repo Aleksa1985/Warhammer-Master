@@ -1,0 +1,1 @@
+[{"id":1,"name":"Kizin brat","defenceBonus":5,"masterwork":true},{"id":2,"name":"Kizin car","defenceBonus":4,"masterwork":true},{"id":3,"name":"LexinBrat okahdaukwd","defenceBonus":2,"masterwork":true}]

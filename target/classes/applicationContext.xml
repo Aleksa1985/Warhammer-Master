@@ -6,6 +6,14 @@
         http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
+    <bean id="configFile" 
+          class="alexsoft.warhammermaster.utility.ConfigFiles">
+        <property name="armorFilePath" value="armors.txt"/>
+    </bean>
+    
+    
+    
+    
 	<context:annotation-config/>
 	<context:component-scan base-package="alexsoft.warhammermaster.component" />
 </beans>
